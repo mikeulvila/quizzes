@@ -12,3 +12,20 @@ header {
 	display: inline-block;
 	margin: 0 5px;
 }
+/*_____________MAIN________________*/
+.disabled {
+	color: gray;
+}
+a[class="disabled"] {
+	color: purple;
+}
+.active {
+	color: yellow;
+}
+/*-------------SELECTORS------------*/
+div.parent div:first-child {
+	color: red;
+}
+div.parent div:first-child ~ div {
+	color: blue;
+}
