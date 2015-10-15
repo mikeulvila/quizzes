@@ -16,8 +16,8 @@ header {
 .disabled {
 	color: gray;
 }
-a[class="disabled"] {
-	color: purple;
+a span.disabled {
+	color: purple; /* COULD NOT FIGURE OUT CORRECT WAY TO SELECT PURPLE */
 }
 .active {
 	color: yellow;
