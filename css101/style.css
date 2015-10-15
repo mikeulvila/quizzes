@@ -29,3 +29,13 @@ div.parent div:first-child {
 div.parent div:first-child ~ div {
 	color: blue;
 }
+div.parent div:first-child + h4{
+	background-color: red;
+}
+div.parent div:first-child ~ div + h4{
+	background-color: blue;
+}
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 10%;
+}
