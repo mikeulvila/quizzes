@@ -4,6 +4,11 @@ header {
 }
 
 /*_____________NAV LINKS________________*/
-ul {
+#nav-list {
 	list-style-type: none;
+	text-align: center;
+}
+#nav-list li {
+	display: inline-block;
+	margin: 0 5px;
 }
