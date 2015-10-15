@@ -1,0 +1,9 @@
+/*_____________HEADER________________*/
+header {
+	border: 1px solid black;
+}
+
+/*_____________NAV LINKS________________*/
+ul {
+	list-style-type: none;
+}
